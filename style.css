@@ -16,20 +16,30 @@ h3{
  justify-content: space-around;
 }
 
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 button {
     background-color: rgb(204, 116, 131);
     border: 0px;
-    margin-left: 85px;
+    margin: 100px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    padding: 0px;
 }
 
-.relax-video {
+.relax-videos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: grid;
+    margin-left: 150px;
 }
 
-.yoga-video {
+.yoga-videos {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
