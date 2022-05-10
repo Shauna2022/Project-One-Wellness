@@ -1,3 +1,15 @@
-const URL = "https://api.thenounproject.com/icons/yoga?limit_to_public_domain=13e7d91457c34cd69869283c70bb4b13"
+const URL = "https://api.thenounproject.com/icons/yoga"
 
+const $button = $('#button');
 
+function haneleGetData() {
+
+    $.ajax(URL).then(function(data) {
+        console.log('daily yoga pose')
+        // console.log(data)
+        $button.
+    }, function(error) {
+        console.log('no yoga')
+        console.log(error)
+    })
+}
