@@ -1,3 +1,7 @@
+body{
+    background-color: pink
+}
+
 h1{
     text-align: center;
 }
@@ -16,4 +20,18 @@ button {
     background-color: rgb(204, 116, 131);
     border: 0px;
     margin-left: 85px;
+}
+
+.relax-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yoga-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
 }
