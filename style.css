@@ -35,8 +35,9 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: grid;
-    margin-left: 150px;
+    margin-right: 25px;
+    margin-top: 20px;
+
 }
 
 .yoga-videos {
@@ -44,4 +45,5 @@ button {
     flex-direction: column;
     justify-content: flex-end;
     align-content: flex-end;
+    margin-left: 100px;
 }
