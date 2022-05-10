@@ -1,13 +1,14 @@
 const URL = "https://api.thenounproject.com/icons/yoga"
 
-const $button = $('#button');
+// let $button = $('#button');
 
-function haneleGetData() {
+function handleGetData() {
 
     $.ajax(URL).then(function(data) {
         console.log('daily yoga pose')
         // console.log(data)
-        $button.
+        $button.icon(data.icons)
+         $('content').append(`<img src="${data.icons}"/>`)
     }, function(error) {
         console.log('no yoga')
         console.log(error)
