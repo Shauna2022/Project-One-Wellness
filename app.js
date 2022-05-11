@@ -1,15 +1,10 @@
-// const apiYoga = "https://lightning-yoga-api.herokuapp.com/yoga_poses"
-
-// i should click a button and get a random yoga pose
-
-
-
 const $yogaButton = $('#yogaButton')
 // console.log($yogaButton)
-
+function handleGetData(evt) {
+    evt.preventDefault();
 const getYogaPose = () => {
 $.ajax({
-    url:'https://lightning-yoga-api.herokuapp.com/yoga_poses'
+    URL:'https://lightning-yoga-api.herokuapp.com/yoga_poses'
 }).then(
     (data) => {
         console.log(data);
@@ -18,7 +13,12 @@ $.ajax({
         console.log('no data', error);
     }
 );
-
+}
 }
 
-$yogaButton.on('click' , getYogaPose)
+$yogaButton.on('click' , function() {
+    let $poseName = $('#poseName').val();
+    $('#poseName').append(`<li>${URL}</li>`)
+    $('ul').val('');
+});
+
