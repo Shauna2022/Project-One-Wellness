@@ -23,7 +23,7 @@ h3{
 
 button {
     background-color: rgb(204, 116, 131);
-    border: 0px;
+    border: 1px solid;
     margin: 100px;
     margin-top: 300px;
     margin-bottom: 300px;
@@ -36,7 +36,7 @@ button {
     justify-content: center;
     align-items: center;
     margin-right: 25px;
-    margin-top: 20px;
+    margin-top: 15px;
 
 }
 

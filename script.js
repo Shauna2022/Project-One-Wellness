@@ -12,5 +12,5 @@ function handleGetData() {
     }, function(error) {
         console.log('no yoga')
         console.log(error)
-    })
+    });
 }
