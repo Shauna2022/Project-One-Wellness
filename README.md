@@ -2,7 +2,12 @@ This is a wellness resource to make sure that we are taking care of our mental h
 
 website link   https://astonishing-starship-728c7e.netlify.app/
 
-I used HTML, CSS, JavaScript and jQuery.
+Languages used: 
+HTML
+CSS 
+JavaScript
+jQuery
+Lighting Yoga API
 
 There are different sections on my website. Section one is "Pose of the day" which a random yoga pose will show up on the page for you to try as a fun challenge. If you feel as if that pose is to challenging you can click again for a new  pose.
 
