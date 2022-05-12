@@ -1,6 +1,7 @@
 const $yogaButton = $('#yogaButton')
 const $picture = $('#picture')
 $yogaButton.on('click' , function() {
+    $yogaButton.text('To difficult? CLick again!')
     let num = Math.floor(Math.random() * 49)
         $.ajax({
             url: 'https://lightning-yoga-api.herokuapp.com/yoga_poses'
