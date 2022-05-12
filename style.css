@@ -57,3 +57,7 @@ button {
     align-content: flex-end;
     margin-left: 100px;
 }
+
+#picture{
+    max-width: 150px;
+}

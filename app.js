@@ -1,31 +1,31 @@
 const $yogaButton = $('#yogaButton')
+const $picture = $('#picture')
 // console.log($yogaButton)
-function handleGetData(evt) {
-    evt.preventDefault();
+$yogaButton.on('click' , function() {
+    // alert('jQuery works')
+    let num = Math.floor(Math.random() * 49)
         $.ajax({
-            URL: 'https://lightning-yoga-api.herokuapp.com/yoga_poses'
+            url: 'https://lightning-yoga-api.herokuapp.com/yoga_poses'
         }).then(
             (data) => {
-                data.items.img_url;
-                console.log(data);
-            },
+                //    $picture.img_url(data.items.img_url);
+                let img = data.items[num].img_url
+                    $picture.attr("src", img)
+                console.log(img)
+                $('#name').text(data.items[num].english_name)
+                    // let $poseName = $('#name').val();
+                    // $('p').val('');
+            });
             (error) => {
                 console.log('no data', error);
             }
-        );
-}
-
-$yogaButton.on('click' , function() {
-    let $poseName = $('#poseName').val();
-    $('#poseName').append(`<li>${data.items.img_url}</li>`)
-    $('ul').val('');
 });
+//  handleGetData(evt)
 
-// handleGetData(evt)
-// Charles Barlett
+// Charles Barlett, Iyana Marquez, David Aydin
 // const url = 'https://lightning-yoga-api.herokuapp.com/yoga_poses'
 // $.ajax(url).then(
 //     function(data){
-//     console.log(data.items[1].img_url)
+//     console.log(data.items.img_url)
 //     }
 // )
