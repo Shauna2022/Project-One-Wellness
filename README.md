@@ -3,11 +3,11 @@
 
 This is a wellness resource to make sure that we are taking care of our mental health while we are taking this intense course. 
 To make this website I used: 
--HTML
--CSS
--JavaScript 
--jQuery
--Lighting Yoga Api
+*HTML
+*CSS
+*JavaScript 
+*jQuery
+*Lighting Yoga Api
 
 # Getting Started
 
