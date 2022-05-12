@@ -2,12 +2,12 @@
 # Wellness and Mental Health
 
 This is a wellness resource to make sure that we are taking care of our mental health while we are taking this intense course. 
-To make this website I used: 
-*HTML
-*CSS
-*JavaScript 
-*jQuery
-*Lighting Yoga Api
+To make this website I used: <br>
+-HTML<br>
+-CSS<br>
+-JavaScript <br>
+-jQuery<br>
+-Lighting Yoga Api<br>
 
 # Getting Started
 
