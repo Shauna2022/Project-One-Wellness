@@ -1,6 +1,6 @@
 This is a wellness resource to make sure that we are taking care of our mental health while we are taking this intense course. 
 
-website link   https://astonishing-starship-728c7e.netlify.app/
+website link   https://gastumentalhealth.netlify.app/
 
 Languages used: 
 HTML
